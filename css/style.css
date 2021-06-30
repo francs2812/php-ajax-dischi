@@ -8,14 +8,15 @@ body {
 }
 
 .container {
-    width: 225px;
-    height: 225px;
+    width: calc((100% - 150px) / 5);
+    height: 250px;
     margin: 10px;
     display: inline-block;
-    background-color: white;
     text-align: center;
     background-size: cover;
     position: relative;
+    color: white;
+    background-color: black;
 }
 
 img {
@@ -32,8 +33,9 @@ img {
      z-index: 3;
      position: absolute;
      transform: translate(-50%, -50%);
-     top: 70%;
+     top: 55%;
      left: 50%;
+     font-size: 15px;
 }
 
 .container:hover  .text{
@@ -49,6 +51,8 @@ img {
 span {
     color: red;
 }
-p {
-    display: block;
+
+main {
+    padding: 50px;
+    background-color: black;
 }
