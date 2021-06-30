@@ -1,5 +1,4 @@
 <?php 
-include __DIR__ . '/partials/function.php';
     $disks = [
         [
             "title" => "<span>Titolo</span> : Articolo 31",
