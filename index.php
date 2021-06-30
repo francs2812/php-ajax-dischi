@@ -14,10 +14,13 @@
     <title>Document</title>
 </head>
 <body>
+    <header>
+        <img src="imge/spotify.png" alt="">
+    </header>
     <main>
-            <div> 
-                <?php foreach($disks as $disk) { ?>
-                <div class="container">
+        <div> 
+            <?php foreach($disks as $disk) { ?>
+            <div class="container">
                 <?= $disk["cover"]; ?>
                 <div class="text">
                     <h2>
@@ -36,20 +39,13 @@
                         <?= $disk["genre"]; ?>
                     </h2>
                 </div>
-    
-                </div>
 
-                <?php }; ?>
-                
-                
             </div>
 
-            <div>
-
-                
-            </div>
-
+            <?php }; ?>
+            
+            
+        </div>
     </main>
-    <script src="js/script.js"></script>
 </body>
 </html>
